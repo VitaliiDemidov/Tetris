@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+.main {
+    height: 620px;
+    width: 320px;
+    margin: 100px auto;
+    border: 10px solid silver;
+    font-size: 0;
+}
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid silver;
+    display: inline-block;
+}
+.moveingcell {
+    background-color: blue;
+}
+.fixedcell {
+    background-color: green;
+}
